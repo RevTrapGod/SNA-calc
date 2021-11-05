@@ -1,0 +1,382 @@
+Log started: 2021-11-02 17:32:30.876041
+PROCESS STARTED: 2021-11-02 17:35:07.550140
+No viable triangles found in 1000 attempts. Batch #:1
+PROCESS STARTED: 2021-11-02 17:51:45.585640
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+No viable triangles found in 1000 attempts. Batch #:3
+Triangle found batch #: 4 Attempt #: 798/1000
+Viable Triangle:['USDT', 'USD', 'KNC', 'USDT']2021-11-02 17:51:45.585640
+PROCESS STARTED: 2021-11-02 17:51:45.585640
+No viable triangles found in 1000 attempts. Batch #:1
+PROCESS STARTED: 2021-11-02 18:47:02.264474
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+No viable triangles found in 1000 attempts. Batch #:3
+No viable triangles found in 1000 attempts. Batch #:4
+No viable triangles found in 1000 attempts. Batch #:5
+Triangle found batch #: 6 Attempt #: 84/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-02 18:47:02.264474
+PROCESS STARTED: 2021-11-02 18:47:02.264474
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-02 18:47:02.264474
+PROCESS STARTED: 2021-11-03 14:58:41.344669
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+No viable triangles found in 1000 attempts. Batch #:3
+Triangle found batch #: 4 Attempt #: 145/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 14:58:41.344669
+PROCESS STARTED: 2021-11-03 14:58:41.344669
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 14:58:41.344669
+PROCESS STARTED: 2021-11-03 16:35:11.972164
+Triangle found batch #: 1 Attempt #: 723/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:35:11.972164
+PROCESS STARTED: 2021-11-03 16:35:11.972164
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 540/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 16/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 16/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 18/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 4/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 2/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 3/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 5/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 144/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 4/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 2/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 4/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'BUSD', 'SHIB', 'USDT']2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 16:45:40.978019
+PROCESS STARTED: 2021-11-03 17:45:18.103276
+PROCESS STARTED: 2021-11-03 17:46:34.722900
+Triangle found batch #: 1 Attempt #: 147/1000
+Viable Triangle:['USDT', 'ZRX', 'USD', 'USDT']2021-11-03 17:46:34.722900
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+Triangle found batch #: 1 Attempt #: 107/1000
+Viable Triangle:['USDT', 'MKR', 'USD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+No viable triangles found in 1000 attempts. Batch #:1
+Triangle found batch #: 2 Attempt #: 953/1000
+Viable Triangle:['USDT', 'EGLD', 'USD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+Triangle found batch #: 1 Attempt #: 42/1000
+Viable Triangle:['USDT', 'USD', 'EGLD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'USD', 'EGLD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'USD', 'EGLD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'USD', 'EGLD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'USD', 'EGLD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'USD', 'EGLD', 'USDT']2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 17:48:15.505213
+PROCESS STARTED: 2021-11-03 18:22:31.021474
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+No viable triangles found in 1000 attempts. Batch #:3
+No viable triangles found in 1000 attempts. Batch #:4
+PROCESS STARTED: 2021-11-03 19:03:54.598994
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 30/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 4/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 4/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 10/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 40/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 6/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 1/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+Triangle found batch #: 1 Attempt #: 57/1000
+Viable Triangle:['USDT', 'SHIB', 'BUSD', 'USDT']2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:04:02.508766
+PROCESS STARTED: 2021-11-03 19:45:29.081075
+Triangle found batch #: 1 Attempt #: 77/1000
+Viable Triangle:['USDT', 'USD', 'HNT', 'USDT']2021-11-03 19:45:29.081075
+PROCESS STARTED: 2021-11-03 19:48:37.926459
+No viable triangles found in 1000 attempts. Batch #:1
+PROCESS STARTED: 2021-11-03 19:57:11.825456
+PROCESS STARTED: 2021-11-03 19:57:49.636842
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+Triangle found batch #: 3 Attempt #: 543/1000
+Viable Triangle:['USDT', 'ONT', 'USD', 'USDT']2021-11-03 19:57:49.636842
+PROCESS STARTED: 2021-11-03 20:15:27.883855
+No viable triangles found in 1000 attempts. Batch #:1
+Triangle found batch #: 2 Attempt #: 130/1000
+Viable Triangle:['USDT', 'ETC', 'USD', 'USDT']2021-11-03 20:15:27.883855
+PROCESS STARTED: 2021-11-03 20:22:50.305613
+Triangle found batch #: 1 Attempt #: 351/1000
+Viable Triangle:['USDT', 'HNT', 'USD', 'USDT']2021-11-03 20:22:50.305613
+PROCESS STARTED: 2021-11-03 20:30:20.294345
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+PROCESS STARTED: 2021-11-03 20:43:09.372357
+Triangle found batch #: 1 Attempt #: 676/1000
+Viable Triangle:['USDT', 'ONT', 'USD', 'USDT']2021-11-03 20:43:09.372357
