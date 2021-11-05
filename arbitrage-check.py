@@ -34,7 +34,6 @@ def main():
     log_start()
     size = os.stat('runlog.txt').st_size 
 
-
     if round(size / 1024) >= 100:
         with open('runlog.txt', 'w') as o:
             o.write('Log started: ' + str(now) + '\n')
@@ -45,6 +44,7 @@ def main():
 
         start_time = time()
         prices = get_prices()
+        pair = ''
         prices_time = time()
         print(f'Downloaded in: {prices_time - start_time:.4f}s')
 
@@ -61,7 +61,7 @@ def main():
         
         if triangles:
             for triangle in sorted(triangles, key=itemgetter('profit'), reverse=True):
-                describe_triangle(prices, triangle, batch, count)
+                describe_triangle(prices, triangle, batch, count, pair)
             break
 
         elif count <= 1000:
@@ -83,10 +83,10 @@ def log_start():
     with open('runlog.txt' ,'a') as o:
         o.write(str('PROCESS STARTED: ' + str(now)) + '\n')
 
-def log_triangle(trade_pairs, batch, count):
+def log_triangle(batch, count, trade_pairs, pair):
     with open('runlog.txt', 'a') as o:
         o.write(str('Triangle found batch #: ' + str(batch) + ' Attempt #: ' + str(count) +'/1000') + '\n')
-        o.write(str('Viable Triangle:' + str(trade_pairs) + '' + str(now) + '\n'))
+        o.write(str('Viable Triangle:' + str(trade_pairs) + '' + str(now) + '\n' + str(pair)))
     
 
 def get_prices():
@@ -104,8 +104,8 @@ def get_prices():
                 prepared[primary][secondary] = 1 / ask
                 prepared[secondary][primary] = bid
     return prepared
-
-
+    
+    
 def find_triangles(prices):
     triangles = []
     starting_coin = 'USDT'
@@ -131,7 +131,7 @@ def recurse_triangle(prices, current_coin, starting_coin, depth_left=3, amount=1
         }
 
 
-def describe_triangle(prices, triangle, batch, count):
+def describe_triangle(prices, triangle, batch, count, pair):
     trade_pairs = []
     coins = triangle['coins']
     price_percentage = (triangle['profit'] - 1.0) * 100
@@ -142,7 +142,7 @@ def describe_triangle(prices, triangle, batch, count):
         trade_pairs.append(second + first)
         print(f'     {second:4} / {first:4}: {prices[first][second]:-17.8f}')
     print('')
-    log_triangle(coins, batch, count)
+    log_triangle(coins, batch, count, pair)
     define_pairs(trade_pairs, prices)
 
 def define_pairs(trade_pairs, prices):
@@ -157,12 +157,12 @@ def trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_fina
 
     try:
        order = client.create_test_order(
-            symbol=trade_pair_initial.encode('ascii'),
-            side='BUY'.encode('ascii'),
-            type='LIMIT'.encode('ascii'),
-            timeInForce='GTC'.encode('ascii'),
+            symbol=trade_pair_initial,
+            side='BUY',
+            type='LIMIT',
+            timeInForce='GTC',
             quantity=100,
-            price=int(prices[trade_pair_final]))
+            price=str(prices[trade_pair_final]))
 
     except BinanceAPIException as e:
      #error handling goes here
@@ -171,6 +171,7 @@ def trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_fina
      #error handling goes here
         print(e)
     trade_secondary(prices, trade_pair_second, trade_pair_final)
+    return order    
 
 
 def trade_secondary(prices, trade_pair_second, trade_pair_final):
