@@ -156,7 +156,7 @@ def define_pairs(trade_pairs, prices):
         for i in list(trade_pairs):
             if i.startswith(primary):
                 secondary = i[:-len(primary)]
-                symbols.append(secondary % primary)
+                symbols.append(secondary + primary)
             else:
                 symbols.append(i)
 
