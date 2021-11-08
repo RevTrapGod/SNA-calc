@@ -11,7 +11,7 @@ from operator import itemgetter
 from time import time
 from datetime import datetime
 from dotenv import load_dotenv
-from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
+from binance import Client, ThreadedWebsocketManager
 from binance.enums import *
 from binance.exceptions import BinanceAPIException, BinanceOrderException
 
@@ -29,8 +29,10 @@ client = Client(API_KEY, API_SECRET, tld='us')
 
 
 def main():
+
     count = 0
     batch = 1
+
     log_start()
     size = os.stat('runlog.txt').st_size 
 
@@ -51,13 +53,6 @@ def main():
         triangles = list(find_triangles(prices))
         print(f'Computed in: {time() - prices_time:.4f}s')
     
-        r = requests.get('https://api.binance.us')
-        print(r.status_code)
-
-        if r == 428:
-            print('API EXCEPTION! PROCESS HALTED!')
-            with open('runlog.txt', 'a') as o:
-                o.write('API EXCEPTION! *Response Code 428* PROCESS HALTED: ' + str(now) + '\n')
         
         if triangles:
             for triangle in sorted(triangles, key=itemgetter('profit'), reverse=True):
@@ -79,9 +74,11 @@ def main():
                 o.write(str('Batch count exceeded. Restarting process... ' + str(now)) + '\n')
             main()
 
+
 def log_start():
     with open('runlog.txt' ,'a') as o:
         o.write(str('PROCESS STARTED: ' + str(now)) + '\n')
+
 
 def log_triangle(batch, count, trade_pairs, pair):
     with open('runlog.txt', 'a') as o:
@@ -90,22 +87,30 @@ def log_triangle(batch, count, trade_pairs, pair):
     
 
 def get_prices():
-    prices = client.get_orderbook_tickers()
-    prepared = defaultdict(dict)
-    for ticker in prices:
-        pair = ticker['symbol']
-        ask = float(ticker['askPrice'])
-        bid = float(ticker['bidPrice'])
-        if ask == 0.0:
-            continue
-        for primary in PRIMARY:
-            if pair.endswith(primary):
-                secondary = pair[:-len(primary)]
-                prepared[primary][secondary] = 1 / ask
-                prepared[secondary][primary] = bid
+
+    try:
+       prices = client.get_orderbook_tickers()
+    except BinanceAPIException as e:
+        print(e.status_code)
+        print(e.message)
+        with open('runlog.txt', 'a') as o:
+            o.write('API EXCEPTION! PROCESS HALTED ' + e.message + ' ' + e.status_code + '\n')
+    else:    
+        prepared = defaultdict(dict)
+        for ticker in prices:
+            pair = ticker['symbol']
+            ask = float(ticker['askPrice'])
+            bid = float(ticker['bidPrice'])
+            if ask == 0.0:
+                continue
+            for primary in PRIMARY:
+                if pair.endswith(primary):
+                    secondary = pair[:-len(primary)]
+                    prepared[primary][secondary] = 1 / ask
+                    prepared[secondary][primary] = bid  
     return prepared
-    
-    
+
+
 def find_triangles(prices):
     triangles = []
     starting_coin = 'USDT'
@@ -193,7 +198,7 @@ def trade_secondary(prices, trade_pair_second, trade_pair_final):
      #error handling goes here
         print(e)
     trade_final(prices, trade_pair_final)
-
+    return order
 
 def trade_final(prices, trade_pair_final):
     print( 'Initiating trade: ', trade_pair_final)
@@ -214,6 +219,7 @@ def trade_final(prices, trade_pair_final):
      #error handling goes here
         print(e)
     main()
+    return order
 
 
 if __name__ == '__main__':

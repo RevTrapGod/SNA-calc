@@ -415,4 +415,24 @@ PROCESS STARTED: 2021-11-04 21:45:43.877705
 No viable triangles found in 1000 attempts. Batch #:1
 Triangle found batch #: ['USDT', 'PAXG', 'USD', 'USDT'] Attempt #: 2/1000
 Viable Triangle:9072021-11-04 21:45:43.877705
-symbol
+symbolPROCESS STARTED: 2021-11-07 19:28:37.363142
+No viable triangles found in 1000 attempts. Batch #:1
+PROCESS STARTED: 2021-11-07 19:40:14.000713
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+PROCESS STARTED: 2021-11-07 19:58:29.538006
+PROCESS STARTED: 2021-11-07 19:58:46.333669
+PROCESS STARTED: 2021-11-07 20:01:22.651154
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+PROCESS STARTED: 2021-11-07 20:17:38.822047
+PROCESS STARTED: 2021-11-07 20:18:20.928429
+PROCESS STARTED: 2021-11-07 20:19:45.386056
+PROCESS STARTED: 2021-11-07 20:28:04.706113
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+No viable triangles found in 1000 attempts. Batch #:3
+No viable triangles found in 1000 attempts. Batch #:4
+No viable triangles found in 1000 attempts. Batch #:5
+No viable triangles found in 1000 attempts. Batch #:6
+No viable triangles found in 1000 attempts. Batch #:7
