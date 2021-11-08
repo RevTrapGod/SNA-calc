@@ -151,9 +151,18 @@ def describe_triangle(prices, triangle, batch, count, pair):
     define_pairs(trade_pairs, prices)
 
 def define_pairs(trade_pairs, prices):
-    trade_pair_initial = str(trade_pairs[0])
-    trade_pair_second = str(trade_pairs[1])
-    trade_pair_final = str(trade_pairs[2])
+    symbols = []
+    for primary in PRIMARY:
+        for i in list(trade_pairs):
+            if i.startsswith(primary):
+                secondary = i[:-len(primary)]
+                symbols.append(secondary % primary)
+            else:
+                symbols.append(i)
+
+    trade_pair_initial = str(symbols[0])
+    trade_pair_second = str(symbols[1])
+    trade_pair_final = str(symbols[2])
 
     trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_final)
 
@@ -161,7 +170,7 @@ def trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_fina
     print( 'Initiating trade: ', trade_pair_initial)
 
     try:
-       order = client.create_test_order(
+       client.create_test_order(
             symbol=trade_pair_initial,
             side='BUY',
             type='LIMIT',
@@ -175,15 +184,14 @@ def trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_fina
     except BinanceOrderException as e:
      #error handling goes here
         print(e)
-    trade_secondary(prices, trade_pair_second, trade_pair_final)
-    return order    
+    trade_secondary(prices, trade_pair_second, trade_pair_final)   
 
 
 def trade_secondary(prices, trade_pair_second, trade_pair_final):
     print( 'Initiating trade: ', trade_pair_second)
 
     try:
-        order = client.create_test_order(
+        client.create_test_order(
             symbol=trade_pair_second,
             side='BUY',
             type='LIMIT',
@@ -198,13 +206,13 @@ def trade_secondary(prices, trade_pair_second, trade_pair_final):
      #error handling goes here
         print(e)
     trade_final(prices, trade_pair_final)
-    return order
+    
 
 def trade_final(prices, trade_pair_final):
     print( 'Initiating trade: ', trade_pair_final)
 
     try:
-        order = client.create_test_order(
+        client.create_test_order(
             symbol = trade_pair_final,
             side = 'BUY',
             type = 'LIMIT',
@@ -219,8 +227,7 @@ def trade_final(prices, trade_pair_final):
      #error handling goes here
         print(e)
     main()
-    return order
-
+    
 
 if __name__ == '__main__':
     main()

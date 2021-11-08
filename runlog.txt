@@ -436,3 +436,17 @@ No viable triangles found in 1000 attempts. Batch #:4
 No viable triangles found in 1000 attempts. Batch #:5
 No viable triangles found in 1000 attempts. Batch #:6
 No viable triangles found in 1000 attempts. Batch #:7
+No viable triangles found in 1000 attempts. Batch #:8
+No viable triangles found in 1000 attempts. Batch #:9
+No viable triangles found in 1000 attempts. Batch #:10
+No viable triangles found in 1000 attempts. Batch #:11
+No viable triangles found in 1000 attempts. Batch #:12
+No viable triangles found in 1000 attempts. Batch #:13
+Triangle found batch #: ['USDT', 'HNT', 'USD', 'USDT'] Attempt #: 14/1000
+Viable Triangle:9092021-11-07 20:28:04.706113
+PROCESS STARTED: 2021-11-07 21:11:54.594840
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+Triangle found batch #: ['USDT', 'USD', 'ETC', 'USDT'] Attempt #: 3/1000
+Viable Triangle:4302021-11-07 21:11:54.594840
+PROCESS STARTED: 2021-11-07 21:24:25.644873
