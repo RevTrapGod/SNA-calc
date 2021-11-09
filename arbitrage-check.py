@@ -14,8 +14,8 @@ from dotenv import load_dotenv
 from binance import Client, ThreadedWebsocketManager
 from binance.enums import *
 from binance.exceptions import BinanceAPIException, BinanceOrderException
-
-import requests
+import sys
+import logging
 import os
 
 load_dotenv()
@@ -40,6 +40,9 @@ def main():
         with open('runlog.txt', 'w') as o:
             o.write('Log started: ' + str(now) + '\n')
 
+    twm = ThreadedWebsocketManager(tld='us')
+
+    twm.start()
 
     while count < 1001:
         count += 1
@@ -156,7 +159,10 @@ def define_pairs(trade_pairs, prices):
         for i in list(trade_pairs):
             if i.startswith(primary):
                 secondary = i[:-len(primary)]
+                print(secondary)
                 symbols.append(secondary + primary)
+            elif i.count('USDTUSD') == 1 or i.count('USDUSDT') == 1:
+                symbols.append('USDTUSD')
             else:
                 symbols.append(i)
 
@@ -166,67 +172,68 @@ def define_pairs(trade_pairs, prices):
 
     trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_final)
 
-def trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_final):
-    print( 'Initiating trade: ', trade_pair_initial)
+def trade_initial(prices, trade_pair_initial, trade_pair_second, trade_pair_final, twm):
+    print( 'Initiating trade: ' + trade_pair_initial)
 
-    try:
-       client.create_test_order(
-            symbol=trade_pair_initial,
-            side='BUY',
-            type='LIMIT',
-            timeInForce='GTC',
-            quantity=100,
-            price=str(prices[trade_pair_final]))
+#    try: 
+#        client.create_test_order(
+#        symbol=str(trade_pair_initial), 
+#        side='BUY', 
+#        type='LIMIT', 
+#        timeInForce='GTC', 
+#        quantity=100, 
+#        price=str(prices[trade_pair_final]))
 
-    except BinanceAPIException as e:
+#    except BinanceAPIException as e:
      #error handling goes here
-        print(e)
-    except BinanceOrderException as e:
+#        print(e)
+#    except BinanceOrderException as e:
      #error handling goes here
-        print(e)
-    trade_secondary(prices, trade_pair_second, trade_pair_final)   
+#        print(e)
+    trade_secondary(prices, trade_pair_second, trade_pair_final, twm)   
 
 
-def trade_secondary(prices, trade_pair_second, trade_pair_final):
+def trade_secondary(prices, trade_pair_second, trade_pair_final, twm):
     print( 'Initiating trade: ', trade_pair_second)
 
-    try:
-        client.create_test_order(
-            symbol=trade_pair_second,
-            side='BUY',
-            type='LIMIT',
-            timeInForce='GTC',
-            quantity=100,
-            price=prices[trade_pair_second])
+#    try:
+#        client.create_test_order(
+#            symbol=trade_pair_second,
+#            side='BUY',
+#            type='LIMIT',
+#            timeInForce='GTC',
+#            quantity=100,
+#            price=prices[trade_pair_second])
 
-    except BinanceAPIException as e:
+#    except BinanceAPIException as e:
      #error handling goes here
-        print(e)
-    except BinanceOrderException as e:
+#        print(e)
+#    except BinanceOrderException as e:
      #error handling goes here
-        print(e)
-    trade_final(prices, trade_pair_final)
+#        print(e)
+    trade_final(prices, trade_pair_final, twm)
     
 
-def trade_final(prices, trade_pair_final):
+def trade_final(prices, trade_pair_final, twm):
     print( 'Initiating trade: ', trade_pair_final)
 
-    try:
-        client.create_test_order(
-            symbol = trade_pair_final,
-            side = 'BUY',
-            type = 'LIMIT',
-            timeInForce = 'GTC',
-            quantity = 100,
-            price = prices[trade_pair_final])
+#    try:
+#        client.create_test_order(
+#            symbol = trade_pair_final,
+#            side = 'BUY',
+#            type = 'LIMIT',
+#            timeInForce = 'GTC',
+#            quantity = 100,
+#            price = prices[trade_pair_final])
 
-    except BinanceAPIException as e:
+#    except BinanceAPIException as e:
      #error handling goes here
-        print(e)
-    except BinanceOrderException as e:
+#        print(e)
+#    except BinanceOrderException as e:
      #error handling goes here
-        print(e)
-    main()
+#        print(e)
+    twm.stop()
+    #main()
     
 
 if __name__ == '__main__':

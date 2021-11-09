@@ -478,3 +478,31 @@ No viable triangles found in 1000 attempts. Batch #:17
 Triangle found batch #: ['USDT', 'ETC', 'USD', 'USDT'] Attempt #: 18/1000
 Viable Triangle:7852021-11-07 21:46:03.064907
 PROCESS STARTED: 2021-11-08 05:15:37.506329
+No viable triangles found in 1000 attempts. Batch #:1
+PROCESS STARTED: 2021-11-08 18:37:59.454434
+Triangle found batch #: ['USDT', 'ONT', 'USD', 'USDT'] Attempt #: 1/1000
+Viable Triangle:102021-11-08 18:37:59.454434
+PROCESS STARTED: 2021-11-08 18:44:56.217630
+PROCESS STARTED: 2021-11-08 18:45:25.272954
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+No viable triangles found in 1000 attempts. Batch #:3
+No viable triangles found in 1000 attempts. Batch #:4
+No viable triangles found in 1000 attempts. Batch #:5
+Triangle found batch #: ['USDT', 'ONT', 'USD', 'USDT'] Attempt #: 6/1000
+Viable Triangle:5892021-11-08 18:45:25.272954
+PROCESS STARTED: 2021-11-08 19:13:31.667564
+No viable triangles found in 1000 attempts. Batch #:1
+Triangle found batch #: ['USDT', 'HNT', 'USD', 'USDT'] Attempt #: 2/1000
+Viable Triangle:6922021-11-08 19:13:31.667564
+PROCESS STARTED: 2021-11-08 19:21:26.894448
+No viable triangles found in 1000 attempts. Batch #:1
+Triangle found batch #: ['USDT', 'USD', 'HNT', 'USDT'] Attempt #: 2/1000
+Viable Triangle:8302021-11-08 19:21:26.894448
+PROCESS STARTED: 2021-11-08 19:32:59.677192
+No viable triangles found in 1000 attempts. Batch #:1
+No viable triangles found in 1000 attempts. Batch #:2
+Triangle found batch #: ['USDT', 'HNT', 'USD', 'USDT'] Attempt #: 3/1000
+Viable Triangle:6672021-11-08 19:32:59.677192
+PROCESS STARTED: 2021-11-08 19:32:59.677192
+PROCESS STARTED: 2021-11-08 20:01:21.865445
